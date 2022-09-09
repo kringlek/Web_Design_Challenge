@@ -1,0 +1,110 @@
+body {
+    background: #f1f1f1;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightseagreen;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightseagreen;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightseagreen;
+  }
+  
+  .homebutton {
+    background-color: white;
+    z-index: 2;
+  }
+  
+  .homebutton a {
+    width: 110px;
+    background: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin: 0px 0px 0px 40px;
+  }
+  
+  .navbar {
+    padding: 10px;
+    background-color: white;
+  }
+  
+
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 2px;
+  }
+  
+
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul { 
+      visibility: hidden;
+    }
+    #nav-select {
+      visibility: visible;
+    }
+  }
+  
+  .divbar {
+    background-color: white;
+    z-index: 2;
+  }
+  
+  .divbody {
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .divtable {
+    background-color: white;
+    z-index: 1;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  #imgsel{
+    border: lightseagreen 2px solid;
+  }
+  Footer
+  
